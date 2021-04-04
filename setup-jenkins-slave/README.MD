@@ -16,6 +16,15 @@ We will be using open java for our demo, Get latest version from http://openjdk.
 ```sh
 yum install java-1.8*
 #yum -y install java-1.8.0-openjdk
+
+
+sudo yum install java-1.8.0-openjdk-devel -y
+## update default version to java8
+sudo update-alternatives --config java
+##Choose the number beside java8
+sudo update-alternatives --config javac
+## Choose the number beside javac
+
 ```
 ## Setup Jenkins Slave
 ```sh
